@@ -5,7 +5,7 @@ const PORT = 3000;
 
 const students = {
   1: { name: "Victor Andres", lastName: "Luna", email: "victorlume@unisabana.edu.co", id: "0000360773" },
-  2: { name: "Juan Jose", lastName: "Campos", email: "victorlume@unisabana.edu.co", id: "0000360773" } //juanjo pon tu infomracion aqui y testea
+  2: { name: "Juan Jose", lastName: "Campos", email: "juancamval@unisabana.edu.co", id: "0000342184" } //juanjo pon tu infomracion aqui y testea
 };
 
 
