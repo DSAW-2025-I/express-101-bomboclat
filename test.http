@@ -1,0 +1,5 @@
+### Prueba con el usuario 1 (Todo con RestClient)
+GET http://localhost:3000/user-info/1
+
+### Prueba con el usuario 2 
+GET http://localhost:3000/user-info/2

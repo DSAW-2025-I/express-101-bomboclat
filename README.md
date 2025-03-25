@@ -1,3 +1,20 @@
+https://express-101-bomboclat.vercel.app/user-info/1 Estudiante 1 = Victor Andres Luna Mejia
+![image](https://github.com/user-attachments/assets/96b09fbe-126b-4430-a25d-ae27d95b9d8a)
+
+
+https://express-101-bomboclat.vercel.app/user-info/2 Estudiante 2 = Juan Jose Campos
+![image](https://github.com/user-attachments/assets/1dd5d298-84a4-4fb6-ac25-6b258ccd226e)
+
+
+
+
+
+
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pKOlJAgR)
+
+
+
 # Taller en Parejas: Creación de un Endpoint con Express.js
 
 Este proyecto consiste en un reto de desarrollo backend en el que se debe crear un endpoint llamado `user-info` utilizando el framework Express.js. El objetivo principal es que, al hacer una solicitud GET a este endpoint, se retorne un objeto JSON con la información de uno o dos estudiantes, dependiendo de si el equipo está compuesto por una o dos personas.
