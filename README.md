@@ -1,7 +1,9 @@
 https://express-101-bomboclat.vercel.app/user-info/1 Estudiante 1 = Victor Andres Luna Mejia
+![image](https://github.com/user-attachments/assets/96b09fbe-126b-4430-a25d-ae27d95b9d8a)
 
 
 https://express-101-bomboclat.vercel.app/user-info/2 Estudiante 2 = Juan Jose Campos
+![image](https://github.com/user-attachments/assets/1dd5d298-84a4-4fb6-ac25-6b258ccd226e)
 
 
 
