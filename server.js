@@ -4,9 +4,11 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
+const PORT = process.env.PORT || 3000;
+
 const students = {
   1: { name: "Victor Andres", lastName: "Luna", email: "victorlume@unisabana.edu.co", id: "0000360773" },
-  2: { name: "Juan Jose", lastName: "Campos", email: "juancamval@unisabana.edu.co", id: "0000342184" } //info nueva
+  2: { name: "Juan Jose", lastName: "Campos", email: "juancamval@unisabana.edu.co", id: "0000342184" }
 };
 
 // Ruta base
@@ -25,8 +27,15 @@ app.get('/user-info/:id', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
-});
+// Verificar que PORT tiene valor
+console.log("Valor de PORT:", PORT);
 
+// Iniciar el servidor (solo si se ejecuta localmente)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  });
+}
+
+// Exportar la app para Vercel
 module.exports = app;
